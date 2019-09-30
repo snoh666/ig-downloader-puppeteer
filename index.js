@@ -44,6 +44,6 @@ app.post('/insta/video', (req, res) => {
 
 
 // ========= SERVER
-app.listen(5500, () => {
+app.listen(80, () => {
   console.log('Listening on port');
 });
