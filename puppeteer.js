@@ -3,7 +3,7 @@ const fs = require('fs');
 
 exports.getPhotoSrc = async (link) => {
 
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({args: ['--no-sandbox']});
   const page = await browser.newPage();
 
   await page.setViewport({width: 1920, height: 1080});
@@ -26,7 +26,7 @@ exports.getPhotoSrc = async (link) => {
 
 exports.getVideoSrc = async (link) => {
 
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({args: ['--no-sandbox'], headless: false });
   const page = await browser.newPage();
 
   await page.setViewport({ width: 1920, height: 1080 });
