@@ -16,5 +16,6 @@ Builded to improve downloading photos and videos from instagram automatically wi
   ````console
   node index.js
   ````
-1. Start using it with fetch to
-> localhost/insta/{'video' | 'photo'}
+## Routes
+ http://localhost/insta/photo \
+ http://localhost/insta/video == isnt working open issue in repo
