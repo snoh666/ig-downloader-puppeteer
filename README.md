@@ -16,6 +16,7 @@ Builded to improve downloading photos and videos from instagram automatically wi
   ````console
   node index.js
   ````
+1. Fetch link in body.link with POST method
 ## Routes
  http://localhost/insta/photo \
  http://localhost/insta/video == isnt working open issue in repo
