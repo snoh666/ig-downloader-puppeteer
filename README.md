@@ -19,4 +19,4 @@ Builded to improve downloading photos and videos from instagram automatically wi
 1. Fetch link in body.link with POST method
 ## Routes
  http://localhost/insta/photo \
- http://localhost/insta/video == isnt working open issue in repo
+ http://localhost/insta/video == isnt working. Issue already open
