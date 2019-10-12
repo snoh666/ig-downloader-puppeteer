@@ -19,4 +19,4 @@ Builded to improve downloading photos and videos from instagram automatically wi
 1. Fetch link in body.link with POST method
 ## Routes
  http://localhost/insta/photo \
- http://localhost/insta/video == isnt working. Issue already open
+ http://localhost/insta/video == isnt working. [ISSUE](https://github.com/snoh666/ig-downloader-puppeteer/issues) open.
